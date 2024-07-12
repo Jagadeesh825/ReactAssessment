@@ -1,0 +1,46 @@
+
+.player-card {
+  background: rgb(76,8,63);
+  background: -moz-linear-gradient(90deg, rgba(76,8,63,0.9726015406162465) 0%, rgba(42,7,48,1) 35%, rgba(58,13,72,1) 75%, rgba(64,7,93,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(76,8,63,0.9726015406162465) 0%, rgba(42,7,48,1) 35%, rgba(58,13,72,1) 75%, rgba(64,7,93,1) 100%);
+  background: linear-gradient(90deg, rgba(76,8,63,0.9726015406162465) 0%, rgba(42,7,48,1) 35%, rgba(58,13,72,1) 75%, rgba(64,7,93,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c083f",endColorstr="#40075d",GradientType=1);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 250px; 
+  margin: 20px;
+}
+
+.player-card:hover {
+  transform: translateY(-10px);
+}
+
+.player-image {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.player-name {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  color: #968f8f;
+}
+
+.player-position {
+  font-size: 1.5rem;
+  color: #868181;
+  margin-top: 5px;
+}
+
+.player-stats {
+  margin-top: 15px;
+}
+
+.player-stats p {
+  font-size: 1rem;
+  color: #928787;
+  margin: 5px 0;
+}
